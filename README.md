@@ -1,6 +1,6 @@
 # Rux Language — Zed Extension
 
-Syntax highlighting support for the [Rux programming language](https://rux-lang.dev) in [Zed editor](https://zed.dev).
+Syntax highlighting support for the [Rux](https://rux-lang.dev) programming language in [Zed](https://zed.dev) editor.
 
 ## Features
 
