@@ -17,7 +17,7 @@
     "description": "Tree-sitter grammar for the Rux programming language",
     "authors": [
       {
-        "name": "Rux Language Contributors"
+        "name": "Ivan Muzyka"
       }
     ],
     "links": {
