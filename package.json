@@ -1,0 +1,22 @@
+{
+  "name": "tree-sitter-rux",
+  "version": "0.1.0",
+  "description": "Tree-sitter grammar for the Rux programming language",
+  "main": "bindings/node",
+  "keywords": [
+    "tree-sitter",
+    "rux"
+  ],
+  "license": "MIT",
+  "tree-sitter": [
+    {
+      "scope": "source.rux",
+      "file-types": [
+        "rux"
+      ]
+    }
+  ],
+  "devDependencies": {
+    "tree-sitter-cli": "^0.25.0"
+  }
+}

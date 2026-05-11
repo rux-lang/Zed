@@ -1,0 +1,42 @@
+// Comment
+/// Doc comment
+/*
+    Block comment
+*/
+
+module App {
+    import Std::Print;
+    import Std::Memory::{ Alloc, Copy };
+
+    enum Direction {
+        North,
+        West
+    }
+
+    struct Point {
+        x: float64;
+        y: float64;
+    }
+
+    struct String {
+        data: *char8;
+        length: uint;
+    }   
+
+    interface Display {
+        func ToString() -> String;
+    }
+
+    func Add(x: int32, y: int32) -> int32 {
+        return x + y;
+    }
+
+    func Main() -> int {
+        const Pi: float64 = 3.1415;
+        var str: String::From("Hello, World!");
+        let sum = Add(5, 10);
+        Print("{}", str);
+        Print("{}", sum);
+        return 0;
+    }
+}

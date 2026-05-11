@@ -1,0 +1,32 @@
+{
+  "grammars": [
+    {
+      "name": "rux",
+      "camelcase": "Rux",
+      "scope": "source.rux",
+      "path": ".",
+      "file-types": [
+        "rux"
+      ],
+      "injection-regex": "^rux$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Tree-sitter grammar for the Rux programming language",
+    "authors": [
+      {
+        "name": "Rux Language Contributors"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/rux-lang/Zed"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "node": true,
+    "rust": true
+  }
+}
