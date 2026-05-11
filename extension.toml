@@ -9,4 +9,4 @@ repository = "https://github.com/rux-lang/Zed"
 
 [grammars.rux]
 repository = "https://github.com/rux-lang/Zed"
-rev = "eb35226f2af80b2163a14648a5885ed118c7635a"
+rev = "bd5b5231c3448ac8900f44250d7f1e5bce31eaad"
